@@ -1,0 +1,26 @@
+{
+  "name": "@rotomeca/webcomponents",
+  "version": "1.0.0",
+  "description": "Some webcomponents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rotomeca/node-webcomponents.git"
+  },
+  "keywords": [
+    "webcomponents"
+  ],
+  "author": "Rotomeca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rotomeca/node-webcomponents/issues"
+  },
+  "homepage": "https://github.com/Rotomeca/node-webcomponents#readme",
+  "dependencies": {
+    "@rotomeca/event": "^1.0.0",
+    "@rotomeca/utils": "^1.3.0"
+  }
+}
