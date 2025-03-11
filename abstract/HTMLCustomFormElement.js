@@ -1,5 +1,5 @@
-const JsEvent = require("@rotomeca/event");
-const HTMLCustomInternalsElement = require("./HTMLCustomInternalsElement");
+const JsEvent = require('@rotomeca/event');
+const HTMLCustomInternalsElement = require('./HTMLCustomInternalsElement');
 
 /**
  * @class

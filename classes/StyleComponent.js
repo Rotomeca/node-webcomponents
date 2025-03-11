@@ -32,7 +32,7 @@ class StyleComponent {
         html.push(rule.toString());
       }
 
-      html = html.join(' ');
+      html = html.join(" ");
     } else html = EMPTY_STRING;
 
     return html;
@@ -53,7 +53,7 @@ class StyleComponent {
   /**
    * Ajoute plusieurs règles.
    * @param {...Rule} rules
-   * @returns {this} Chapinage
+   * @returns {this} Chaînage
    */
   addRules(...rules) {
     for (const rule of rules) {
@@ -109,7 +109,7 @@ class StyleComponent {
    * @returns {HTMLStyleElement}
    */
   build() {
-    let style = document.createElement('style');
+    let style = document.createElement("style");
     style.appendChild(document.createTextNode(this.text));
 
     return style;
@@ -262,7 +262,7 @@ class Rule {
         if (value) html.push(`${key}:${value};`);
       }
 
-      html.push('}');
+      html.push("}");
       html = html.join(EMPTY_STRING);
     }
 
